@@ -1,0 +1,127 @@
+.content {
+    position: relative;
+}
+.content .section1 .content-boy{
+    border: 31px solid #0CECDD;
+    border-radius: 150px;
+}
+
+.content .section1 .content-ghosts{
+    height: 183.89308166503906px;
+    width: 413.609375px;
+    position: relative;
+    top: 80px;
+    right: 370px;
+}
+
+.content .section1 div .content-clickbutton{
+    height: 124.96842193603516px;
+    width: 146.7764129638672px;
+    position: absolute;
+    top: 500px;
+    right: 500px;
+}
+
+.content .section2{
+    height: 1000px;
+    background-image: url('../../Assets/Images/HomePage/Confetti-background.png');
+    margin-top: 100px;
+    background-size: contain;
+    margin-bottom: 150px;
+}
+
+.content .section2 .section2-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content .section2 .section2-top .content-friends {
+    height: 72.97808837890625px;
+    width: 111.9605484008789px;
+    margin-top: 20px;
+}
+.content .section2 .section2-top h1 {
+    font-family: 'PhKhalid';
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 104px;
+    letter-spacing: 0em;
+    margin-top: 45px;   
+}
+
+.content .section2 .section2-middle {
+    position: relative;
+    height: 723px;
+    width: 723px;
+    margin: auto;
+    background-image: url('../../Assets/Images/HomePage/Radial\ Shine.png');
+    height: 723px;
+    background-size: contain;
+}
+
+.content .section2 .section2-middle .content-opinion {
+    position: absolute;
+    background-color: white;
+    border: 30px solid #0CECDD;
+    border-radius: 140px;
+    margin-top: 110px;
+    margin-right: -10px;
+    height: 457.2125549316406px;
+    width: 691.6768188476562px;
+    box-shadow: 0px 10px 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content .section2 .section2-middle .content-stickers{
+    position: relative;
+}
+.content .section2 .section2-middle .content-stickers .content-loveEmoji {
+    position: absolute;
+    top: -33px;
+    right: -2px;
+}
+.content .section2 .section2-middle .content-stickers .content-smileEmoji {
+    position: absolute;
+    top: 50px;
+    left: 50px
+}
+.content .section2 .section2-middle .content-stickers .content-speechBubble {
+    position: absolute;
+    top: -20px;
+    left: -55px
+}
+
+.content .section2 .section2-middle .content-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .section2 .section2-middle .content-info h3{
+    font-family: 'dgBebo';
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.content .section2 .section2-middle  .content-info p{
+    font-family: 'BalooBhaijaan';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+}
+
+.content .section2 .section2-middle .content-arrows {
+    position: relative;
+    margin-top: 90px;
+}
+.content .section2 .section2-middle .content-arrows .content-arrow{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+}

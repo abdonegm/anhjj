@@ -1,0 +1,41 @@
+
+.Statices {
+    font-family: 'PhKhalid';
+}
+.Statices .statics-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 5rem;
+}
+.Statices .statics-info div{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 250.36px;
+    height: 225.29px;
+    border-radius: 70px;
+    position:relative;
+}
+.Statices .statics-info div img{
+    position: absolute;
+    top:-2.5rem;
+}
+.Statices .statics-info div h4{
+  color: #B23DA4;
+    margin-top: 3.5rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.Statices .statics-info div p {
+    color: #6F19BA;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 48px;
+    margin-top: .5rem;
+}
+

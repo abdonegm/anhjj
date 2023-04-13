@@ -1,0 +1,42 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+}
+.navbar .logo .img-logo {
+    height: 109.5230712890625px;
+    width: 96.65667724609375px;
+}
+.navbar .about ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 930px;
+    height: 72px;
+    left: 205px;
+    top: 43px;
+    background: #FFFFFF;
+    border-radius: 22px;
+}
+.navbar .about ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.navbar .about ul li:last-of-type{
+    margin-left: 30px;
+}
+.navbar .about ul li p {
+    font-family: 'PhKhalid';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: auto;
+}
+.navbar .about ul li p.title {
+    color: #0CECDD;
+}

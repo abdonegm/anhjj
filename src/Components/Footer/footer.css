@@ -1,0 +1,93 @@
+footer{
+    background:url(./ifooter/back.png);
+    position: relative;
+    height: 620px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   margin-top: 10rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'PhKhalid';
+}
+footer .footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11rem;
+}
+footer .footer-logo p{
+    width: 662px;
+    height: 64px;
+    font-family: 'BalooBhaijaan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #161616;
+    margin-top: 1rem;
+}
+footer .footer-links ul{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    font-family: 'dgBebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    color: #161616;
+}
+footer .footer-links ul>li {
+    cursor: pointer;
+}
+footer .foot-im1{
+    position: absolute;
+    top: -10px;
+    left: 25%;
+    
+    
+}
+footer .foot-im2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+footer .foot-im3{
+    position: absolute;
+    right: 25%;
+    
+}
+footer .foot-im4{
+    position: absolute;
+    left: 0;
+ bottom: 0;
+}
+
+footer .foot-im5{
+    position: absolute;
+    left: 280px;
+    top: 180px;
+}
+footer .footer-copyright{
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+
+
+  
+
+}
+footer .footer-copyright span{
+        color: #6F19BA;
+}

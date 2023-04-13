@@ -1,0 +1,49 @@
+.learning-stages{
+    margin-top: 12rem;
+    font-family: 'PhKhalid';
+}
+
+.stages-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+.stages-info .stage-img img,.stage{
+    width: 539px;
+    height: 526.72px;
+}
+.stages-info .stage {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.stages-info .stage button{
+    width: 154px;
+    height: 45px;
+    background: rgba(12, 236, 221, 0.1);
+    border-radius: 39px;
+    border: none;
+    color:#0CECDD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 100%;
+}
+.stages-info .stage h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.stages-info .stage p{
+    font-family: 'BalooBhaijaan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 33px;
+    text-align: right;
+    color: #161616;
+}

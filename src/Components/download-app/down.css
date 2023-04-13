@@ -1,0 +1,91 @@
+.down .down-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.down{
+    margin-top: 6rem;
+    font-family: 'PhKhalid';
+}
+.down .down-content h2{
+ font-style: normal;
+font-weight: 400;
+font-size: 88px;
+line-height: 104px;
+margin-bottom: 0;
+}
+.down .down-images{
+    background-color: rgb(4, 5, 1);
+    position: relative;
+    height: 600px;
+    margin-top: 5rem;
+}
+.down .down-images img{
+    position: absolute;
+}
+.down .down-images .andriod1{
+ height: 700px;
+    left: -50px;
+    top: -100px;
+
+}
+.down .down-images .andriod2{
+    right: -250px;
+    height: 700px;
+    top: -40px;
+  
+}
+.down-btns{
+margin-top: 5rem;
+}
+.down .down-btns button{
+background: linear-gradient(180deg, #25FFFB 1%, #18D5D1 99%);
+    border: 4px solid #13BCB9;
+    margin: 1rem;
+width: 300px;
+height: 115px;
+color: #FFFFFF;
+border-radius:200px;
+ font-style: normal;
+font-weight: 400;
+font-size: 31.1294px;
+line-height: 48px;
+ 
+}
+
+
+.down-btns .end-btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #25C3C8 0.5%, #25FFFB 99.5%);
+    border-radius: 200px;
+    width: 100%;
+    height: 90%;
+    
+}
+.down-btns .end-btn .layer{
+    position: absolute;
+    right: 12px;
+}
+.down-btns .end-btn div{
+    margin-top: 1rem;
+}
+.down .arang{
+  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.down .arang div{
+    display: flex;
+    flex-direction: column;
+}
+.down .arang div img{
+    width: 128px;
+    height: 132px;
+    cursor: pointer;
+}

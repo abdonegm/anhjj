@@ -1,0 +1,63 @@
+header{
+    background-image: url('../../Assets/Images/HomePage/Clouds.png'),
+    url('../../Assets/Images/HomePage/Points.png'),
+    url('../../Assets/Images/HomePage/Clouda.png');
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: 0 70px , -50px -60px , 0 450px ;
+    padding-right: 160px;
+    height: 700px;     
+    direction: rtl;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 45px;
+}
+.header .header-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    gap: 50px;
+}
+.header  .header-images .header-star {
+    height: 43.28624725341797px;
+width: 43.28624725341797px;
+}
+.header  .header-images .header-fish{
+    margin-right: 20px;
+}
+.header div h1 {
+    font-family: 'phKhalid';
+    width: 530px;
+    position: relative;
+    font-size: 152px;
+    font-weight: 400;
+    line-height: 144px;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 100;
+    color: #FFFFFF;
+    top: -40px;
+    left: 14.5px;
+}
+.header div h1 span {
+    color: #FFCE00;
+}
+.header  .header-ballons img{
+    position: relative;
+    left: 160px;
+    top:40px
+}
+
+.header-clouda{
+    height: 320.4977722167969px;
+width: fit-content;
+position: relative;
+right: -150px;
+
+}
+

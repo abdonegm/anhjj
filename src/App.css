@@ -1,0 +1,30 @@
+:root {
+    --main_color: #161616;
+    --secondry_color: #FFFFFF;
+}
+body {
+    font-family: 'PhKhalid';
+    direction: rtl;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: PhKhalid;
+    src: url("../src/Fonts/ph-khalid.ttf") ;
+}
+@font-face {
+    font-family: dgBebo;
+    src: url("../src/Fonts/DG-Bebo-B.ttf") ;
+}
+@font-face {
+    font-family: BalooBhaijaan;
+    src: url("../src/Fonts/BalooBhaijaan.ttf") ;
+}
+ul{
+    list-style: none;
+}
+
+.navbar-header{
+    background-image: url('../src/Assets/Images/HomePage/Background.png');
+    
+}
